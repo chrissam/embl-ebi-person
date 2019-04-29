@@ -37,13 +37,13 @@ def result(interactive, output, mode, test_data = None, file = None):
 
     # Parse the CSV content
     for row in reader:
-	      if 'nationality' in row:
-		        del row['nationality']
-	      result['person'].append(row)
+        if 'nationality' in row:
+            del row['nationality']
+        result['person'].append(row)
     
     # Close the file stream
     if file:
-      f.close()
+        f.close()
 
     # JSON result
     if output.lower() == 'json':
