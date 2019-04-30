@@ -78,6 +78,7 @@ pip install -r requirement.txt
 ```
 This script was tested against python `3.7.2` but should work on all versions of python3
 
+# Examples
 ### Example with file as input 
 ```sh
 $ ./client.py -f test_file.csv
