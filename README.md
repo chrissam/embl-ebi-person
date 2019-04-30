@@ -165,7 +165,7 @@ In this case the input is passed interactively. Once completed passing the input
 Similarly pass '-o' flag to get the desired response format
 
 # Running Tests
-You can run tests by invoking the following command. Tests are written to validate data with sample output (test_file.csv) and by passing values diretctly to the function for interactive input.
+You can run tests by invoking the following command. Tests are written to validate data with sample input (test_file.csv) and by passing values diretctly to the function for interactive input.
 ```sh
 python -m unittest test -v
 ```
