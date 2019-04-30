@@ -47,7 +47,7 @@ John,Keynes,29,British,red
 Sarah,Robinson,54,,blue
 ```
 **Note:**
-Based on the requirement, the nationality field will be represented in the response
+Based on the requirement, the nationality field will not be represented in the response
 
 
 # Script Usage
